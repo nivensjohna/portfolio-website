@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <style>
     body {
@@ -16,14 +22,28 @@
     }
 
     h1 {
+      font-family: "DynaPuff", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
       text-align: center;
-      color: lightblue;
     }
+
     p {
+      font-family: "DynaPuff", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
       text-align: center;
     }
 
     h3 {
+      font-family: "DynaPuff", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
       text-align: center;
     }
 
@@ -34,7 +54,7 @@
     img {
       width: 200px;
       border-radius: 4px;
-      box-shadow: 4px 4px 4px;
+      box-shadow: 2px 2px 2px;
     }
 
     .container {
@@ -48,6 +68,11 @@
     }
 
     li {
+      font-family: "DynaPuff", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
       text-align: center;
     }
 
@@ -59,22 +84,32 @@
       text-align: center;
     }
 
-    .list-projects {
-      display: flex;
-      justify-content: space-evenly;
-      flex-wrap: nowrap;
-    }
-
     footer {
       text-align: center;
     }
 
     h5 {
+      font-family: "DynaPuff", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+      text-align: center;
+    }
+    .projects {
       text-align: center;
     }
 
     .material-symbols-outlined {
       text-align: center;
+    }
+
+    .mail {
+    }
+    .terminal {
+    }
+
+    .link {
     }
   </style>
   <body>
@@ -97,11 +132,11 @@
     <h3>Currently Learning</h3>
     <ul>
       <div class="comp-lang">
-        <li>HTML🧱</li>
-        <li>CSS🎨</li>
-        <li>JavaScript🧠</li>
-        <li>React⚛️</li>
-        <li>APIs🔌</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>APIs</li>
       </div>
     </ul>
     <br />
@@ -113,6 +148,9 @@
     </nav>
     <br />
     <h5>Contact Me</h5>
+    <span class="material-symbols-outlined mail">mail</span>
+    <span class="material-symbols-outlined terminal">terminal</span>
+    <span class="material-symbols-outlined link">link</span>
     <footer>Coded by the <strong>GREAT Johna` Nivens</strong></footer>
   </body>
 </html>
